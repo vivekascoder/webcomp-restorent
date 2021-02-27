@@ -1,0 +1,96 @@
+/* Styles for the navbar. */
+
+.nav {
+    /* background-color: var(--red); */
+    padding: 0 4rem;
+    position: relative;
+}
+
+.nav__navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav__navbar__main {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.nav__navbar__main__logo {
+    position: relative;
+    background-color: var(--red);
+    border-bottom-left-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+    padding: 0rem 2rem;
+    padding-bottom: 0.5rem;
+}
+.nav__navbar__main__logo .icon {
+    /* padding: 0rem 2rem; */
+    color: var(--white);
+    font-size: 4rem;
+    /* margin-top: -0.3rem; */
+    /* padding-top: -0.4rem; */
+    position: relative;
+    top: -10px;
+    left: -10px;
+}
+.nav__navbar__main__logo .title{
+    position: absolute;
+    left: 50%;
+    bottom: 7px;
+    transform: translateX(-50%) rotate(-10deg);
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+
+.links {
+    display: flex;
+    list-style: none;
+    margin-left: 4rem;
+}
+.links__link {
+    padding: 0 1rem;
+    font-weight: 500;
+}
+.links__link.active {
+    color: var(--red);
+}
+
+.nav__navbar__sub__phone {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white;
+    margin: 0 2rem;
+}
+
+.nav__navbar__sub__btn {
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: white;
+    background-color: var(--yellow);
+    padding: 0.7rem 1.6rem;
+    border-radius: 1.7rem;
+}
+
+.hero {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    position: absolute;
+    /* width: 100%; */
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.hero__white, .hero__red {
+    width: 50%;
+    padding: 1rem;
+}
+.hero__red {
+    background-color: var(--red);
+}
