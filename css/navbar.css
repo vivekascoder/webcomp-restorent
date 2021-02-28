@@ -4,28 +4,28 @@
     /* background-color: var(--red); */
     padding: 0 4rem;
     position: relative;
-}
-
-.nav__navbar {
+  }
+  
+  .nav__navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-.nav__navbar__main {
+  }
+  .nav__navbar__main {
     display: flex;
     align-items: center;
     justify-content: start;
-}
-
-.nav__navbar__main__logo {
+  }
+  
+  .nav__navbar__main__logo {
     position: relative;
     background-color: var(--red);
     border-bottom-left-radius: 0.3rem;
     border-bottom-right-radius: 0.3rem;
     padding: 0rem 2rem;
     padding-bottom: 0.5rem;
-}
-.nav__navbar__main__logo .icon {
+  }
+  .nav__navbar__main__logo .icon {
     /* padding: 0rem 2rem; */
     color: var(--white);
     font-size: 4rem;
@@ -34,8 +34,8 @@
     position: relative;
     top: -10px;
     left: -10px;
-}
-.nav__navbar__main__logo .title{
+  }
+  .nav__navbar__main__logo .title {
     position: absolute;
     left: 50%;
     bottom: 7px;
@@ -43,29 +43,29 @@
     font-weight: bold;
     text-transform: uppercase;
     color: white;
-}
-
-.links {
+  }
+  
+  .links {
     display: flex;
     list-style: none;
     margin-left: 4rem;
-}
-.links__link {
+  }
+  .links__link {
     padding: 0 1rem;
     font-weight: 500;
-}
-.links__link.active {
+  }
+  .links__link.active {
     color: var(--red);
-}
-
-.nav__navbar__sub__phone {
+  }
+  
+  .nav__navbar__sub__phone {
     font-size: 1.1rem;
     font-weight: 600;
     color: white;
     margin: 0 2rem;
-}
-
-.nav__navbar__sub__btn {
+  }
+  
+  .nav__navbar__sub__btn {
     text-decoration: none;
     font-size: 0.9rem;
     font-weight: 600;
@@ -73,9 +73,9 @@
     background-color: var(--yellow);
     padding: 0.7rem 1.6rem;
     border-radius: 1.7rem;
-}
-
-.hero {
+  }
+  
+  .hero {
     display: flex;
     align-items: stretch;
     justify-content: center;
@@ -86,11 +86,123 @@
     top: 0;
     bottom: 0;
     z-index: -1;
-}
-.hero__white, .hero__red {
+  }
+  .hero__white,
+  .hero__red {
     width: 50%;
     padding: 1rem;
-}
-.hero__red {
+  }
+  .hero__red {
     background-color: var(--red);
-}
+  }
+  
+  /* Burger Text */
+  .burger {
+    position: absolute;
+    right: 0;
+    font-size: 12rem;
+    font-weight: 600;
+    top: 50%;
+    transform: translateY(-50%) rotate(-90deg);
+    color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .product {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 4rem;
+  }
+  .product__content,
+  .product__name {
+    width: 25%;
+  }
+  
+  .product__content__name {
+    font-size: 8rem;
+    line-height: 7.4rem;
+    color: #452A16;
+  }
+  .product__content__desc {
+    color: rgb(102, 102, 102);
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    line-height: 1.6rem;
+    word-spacing: 0.4rem;
+  }
+  
+  .product__content__btn {
+    text-decoration: none;
+    font-size: 0.8rem;
+    display: inline-block;
+    font-weight: 600;
+    color: white;
+    background-color: var(--red);
+    padding: 0.7rem 2rem;
+    border-radius: 1.7rem;
+    margin-top: 2rem;
+  }
+  .product__image {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .product__image__price {
+    position: absolute;
+    top: 2rem;
+    right: 5rem;
+    z-index: 2;
+    background-color: var(--white);
+    border-radius: 50%;
+    /* padding: 3rem; */
+    flex-direction: column;
+    width: 10rem;
+    height: 10rem;
+  }
+  
+  .product__image__price p {
+    font-size: 1.4rem;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  .product__image__price p:nth-child(2) {
+    font-size: 2.5rem;
+    color: var(--red);
+  }
+  
+  .product__image__img {
+    width: 40rem;
+    filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.3))
+      drop-shadow(0 3px 30px rgba(0, 0, 0, 0.3));
+  }
+  .product__name h2 span {
+    display: block;
+    font-size: 2.5rem;
+    color: var(--white);
+  }
+  .product__name h2 span:nth-child(1) {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  /* Movement button Section */
+  .move {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .move__left,
+  .move__right {
+    font-size: 0.9rem;
+    /* padding: 1rem; */
+    width: 4rem;
+    height: 4rem;
+    margin: 3rem;
+    background: var(--yellow);
+    color: var(--white);
+    border-radius: 50%;
+  }
+  

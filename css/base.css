@@ -1,7 +1,11 @@
 /* Base Styles */
 
 :root {
-    --red: #FC0C06;
-    --white: #ffffff;
-    --yellow: #DD9840;
+	/* --red: #FC0C06; */
+	--red: #9e2a21;
+	--red-light: #db3d32;
+	--white: #ffffff;
+	/* --yellow: #dd9840; */
+	--yellow: #e49a21;
 }
+  

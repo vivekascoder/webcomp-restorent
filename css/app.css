@@ -1,0 +1,46 @@
+
+.app_wrapper {
+    /* padding: 2rem 10rem; */
+}
+.app {
+    background-color: var(--red);
+    display: flex;
+    padding: 3rem;
+    align-items: center;
+    justify-self: start;
+    margin: 2rem 10rem;
+    border-radius: 4px;
+    position: relative;
+}
+.app__img {
+    padding: 3rem;
+    filter: drop-shadow(0 0 20px rgba(0,0,0,0.3));
+    width: 30rem;
+}
+.app__content__title {
+    font-size: 4rem;
+    color: white;
+    margin-bottom: 1.6rem;
+    font-family: 'Montserrat', serif;
+}
+.app__content__sub {
+    font-size: 2rem;
+    color: rgb(223, 223, 223);
+    margin-bottom: 1rem;
+    padding-right: rem;
+}
+.app__content__desc {
+    font-size: 1.3rem;
+    color: rgba(236, 236, 236, 0.801);
+}
+/* 0 3rem 0 0; */
+.app__content__btns__btn {
+    height: 12rem;
+}
+.app__food{
+    position: absolute;
+    width: 18rem;
+    right: 0;
+    bottom: 0;
+    transform: translate(40%, 20%);
+}

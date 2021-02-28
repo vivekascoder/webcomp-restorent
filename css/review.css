@@ -1,0 +1,33 @@
+.review__wrapper {
+    padding: 4rem;
+}
+.review {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.review__content {
+    /* width: 50%; */
+}
+
+.review__art {
+    position: relative;
+    /* width: 50%; */
+    background-color: rebeccapurple;
+    border-radius: 50%;
+    /* padding: 3rem; */
+    width: 30rem;
+    height: 30rem;
+}
+.review__art__img {
+    width: 20rem;
+}
+.review__art__quote {
+    position: absolute;
+    color: #9e2921a2;
+    font-size: 8.5rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-100%, -50%);
+}
